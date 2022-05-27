@@ -16,13 +16,12 @@ spec:
     spec:
       containers:
       - name: frontend-node
-        image: tungtt44/udagram-frontend:v3
+        image: tungtt44/udagram-frontend:v4
         imagePullPolicy: Always
         ports:
           - containerPort: 80
         resources:
           limits:
-            memory: "128Mi"
             cpu: "500m"
         envFrom:
           - configMapRef:

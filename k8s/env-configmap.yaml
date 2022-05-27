@@ -3,9 +3,9 @@ kind: ConfigMap
 metadata:
   name: env-config
 data: 
-  POSTGRES_HOST: pgr-127330165216.c1n43of1mf0v.us-east-2.rds.amazonaws.com
+  POSTGRES_HOST: pgr-127330165216-project.c1n43of1mf0v.us-east-2.rds.amazonaws.com
   POSTGRES_DB: postgres
-  AWS_BUCKET: project3-127330165216-dev
+  AWS_BUCKET: project3-127330165216
   AWS_REGION: us-east-2
   AWS_PROFILE: default
   JWT_SECRET: tungtt44
